@@ -12,6 +12,27 @@
             align-items: center;
             gap: 20px;
         }
+        div.cuadro {
+            background-color: #2a7ca6;
+            padding: 0px 50px;
+            border-radius: 15px;
+            min-width: 50%;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        h1.cuadro {
+            color: #ffcc00;
+            font-size: 28px;
+            margin-bottom: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+        div.fila {
+            display: grid;
+            grid-template-columns: 1fr 80px; /* 1 columna flexible, 80px fija */
+            margin-bottom: 10px;
+            font-size: 18px;
+            }
         h1 {
             text-align: justify;
             margin-top: 5%;
@@ -106,7 +127,7 @@ El Comité Editorial</p>
 
 <p><b>¡Espero veros en Ciudad Real!</b> Y si no es posible, estoy a vuestra entera disposición para lo que necesitéis.</p>
 
-<p></p>Un cordial saludo,<br>Ángel Manuel Ramos del Olmo<br>Presidente de SEMA</p>
+<p>Un cordial saludo,<br>Ángel Manuel Ramos del Olmo<br>Presidente de SEMA</p>
 
 <!--Reseñas de eventos-->
 
@@ -1087,8 +1108,21 @@ la SEMA mantiene acuerdos de reciprocidad con las sociedades RSME, SIAM, SMAI y 
 Para los socios de reciprocidad es necesario adjuntar el justificante de miembro de la sociedad que corresponda, y para los estudiantes un certificado de matrícula del centro.
 </p>
 
-<div class="image_container">
-    <img src="https://github.com/BoletinSEMA/boletin35/blob/main/static/cuotas-socios-sema.png?raw=True"/>
+<br>
+<div class="image_container" style="gap:0">
+ <div class="cuadro">
+    <h1 class="cuadro">Cuotas anuales</h1>
+    <div class="fila"><span>Socio ordinario</span><span style="text-align: right;">40 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la AMS</span><span style="text-align: right;">24 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la GAMM</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la RSME</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la SBMAC</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la SCM</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la SEIO</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la SIAM</span><span style="text-align: right;">24 €</span></div>
+    <div class="fila"><span>Socio de reciprocidad con la SMAI</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio extranjero</span><span style="text-align: right;">40 €</span></div>
+    <div class="fila"><span>Socio estudiante</span><span style="text-align: right;">20 €</span></div>
+    <div class="fila"><span>Socio institucional</span><span style="text-align: right;">200 €</span></div>
 </div>
-
 </div>
